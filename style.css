@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+
+
+/* nav related style    */
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color:#D5D2D2;
+    gap: 10px;
+    padding: 20px 0;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.brand{
+    color: #0fbbb6;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform:capitalize;
+    
+}
+.menu ul{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.menu li{
+    list-style: none;
+}
+.menu li a{
+    text-decoration: none;
+    font-size: 18px;
+    color: #000000;
+}
+.menu li a:hover{
+    color: blue;
+    color:wheat
+}
