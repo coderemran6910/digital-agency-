@@ -121,6 +121,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    padding: 35px 20px;
 
 }
 .service-title, .service-desc{
@@ -172,5 +173,54 @@
     
 }
 .singleBox img{
-    width: 40%;
+    width: 30%;
+}
+
+
+
+
+/* popup related style  */
+.popupContainer{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: red;
+    width: 80%;
+    height: 150px;
+    border-radius: 10px;
+    gap: 20px;
+    padding: 20px;
+    margin: 0 auto;
+    margin-top: -85px;
+}
+.contact{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  
+}
+.contact img{
+    width: 100px;
+    padding-right: 20px;
+}
+.contact h3{
+    color: #ffffff;
+    font-size: 12px;
+    width: 250px;
+    
+}
+.contact h2{
+    color: #ffffff;
+    font-size: 32px;
+    width: 250px;
+    
+}
+.popupDesc p {
+    color: white;
+    width: 500px;
+}
+.popupBtn  button {
+    background-color: #ffffff;
+    color:black;
+    border-radius: 30px;
 }
