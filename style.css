@@ -3,6 +3,21 @@
     padding: 0;
     font-family: 'Open Sans', sans-serif;
 }
+.praimary{
+    color: red;
+}
+.btn{
+    padding: 15px 20px;
+    color: beige;
+    background-color: red;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: 600;
+    margin: 10px ;
+    text-transform: uppercase;
+
+}
 
 
 
@@ -44,4 +59,32 @@
 .menu li a:hover{
     color: blue;
     color:wheat
+}
+
+
+/* Banner related style    */
+.banner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+    background-image: url("/asset/image/background.jpg"), linear-gradient(rgba(0, 0, 0, 0.398), rgba(0, 0, 0, 0.411));
+    background-blend-mode: overlay;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #FFFFFF;
+}
+.banner-title{
+    font-size: 40px;
+    font-weight: 700;
+    font-weight: 900;
+    font-size: 86px;
+}
+.banner-desc{
+    width: 40%;
+    margin: 0 auto;
+    padding: 15px 0;
+    font-size: 21px;
 }
