@@ -74,7 +74,7 @@
     align-items: center;
     height: 100vh;
     text-align: center;
-    background-image: url("/asset/image/background.jpg"), linear-gradient(rgba(0, 0, 0, 0.398), rgba(0, 0, 0, 0.411));
+    background-image: url("./asset/image/background.jpg"), linear-gradient(rgba(0, 0, 0, 0.398), rgba(0, 0, 0, 0.411));
     background-blend-mode: overlay;
     background-size: cover;
     background-position: center;
