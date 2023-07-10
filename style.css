@@ -307,3 +307,13 @@
     padding: 11px 24px;
     text-align: justify;
 }
+
+
+/* footer related style    */
+.footer-top{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #D5D2D2;
+    padding: 25px 10px;
+}
