@@ -330,7 +330,7 @@ footer {
 }
 
 .single-footer {
-    width: 15%;
+    width: 25%;
     padding: 125px 0px;
 }
 .single-footer ul {
@@ -346,9 +346,12 @@ footer {
     list-style: none;
     line-height: 2;
     padding-top: 18px;
-    font-size: 20px;
+    font-size: 18px;
 }
-
+/* .single-footer ul > li i{
+    padding-right: 10px;
+    color: white; */
+/* } */
 .footer-bottom {
     padding: 20px;
     text-align: center;
@@ -360,4 +363,9 @@ footer {
 p.footer-desc {
     font-size: 19px;
     padding-top: 18px;
+}
+.footer-col-1 .icons i {
+    font-size: 28px;
+    padding-right: 10px;
+    margin-top: 36px;
 }
